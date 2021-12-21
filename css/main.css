@@ -1,0 +1,102 @@
+/* fuck 000webhost */
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {display: none;}
+
+/* main */
+* {
+    color: white;
+    font-family: Roboto, "Segoe UI", Arial, serif;
+    font-weight: lighter;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+
+    background-image: linear-gradient(#1a2a31, #000000);
+
+    opacity: 0.75;
+}
+
+button {
+    background: #5d6880;
+
+    padding: 10px 20px;
+    margin: 20px;
+
+    border-style: none;
+    border-radius: 5px;
+
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+button:hover {
+    transition: 0s;
+    background: #7684a1;
+}
+
+button:active {
+    background: #8ea1c5;
+}
+
+/* classes */
+
+#particles-js canvas {
+    display: block;
+    vertical-align: bottom;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+    transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-bar a {
+    margin: 20px 40px;
+
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+
+    cursor: pointer;
+
+    transition: 0.25s;
+}
+
+.nav-bar a:hover {
+    color: #cacaca;
+}
+
+.logo {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.wrapper {
+    text-align: center;
+}
